@@ -1,4 +1,4 @@
-﻿{1,
+{1,
 {11,
 {"kav_en (v1.0) ",1,0,"",""},
 {0,
@@ -376,12 +376,23 @@ EndDo; "}
 {"NSTR",0,0,"nstr","NStr(""en='<?>';ru=''"")"}
 }
 },
-{3,
+{5,
 {"Comments",1,0,"",""},
 {0,
-{"Change (comment)",0,0,"c/","// { Contributor's Name 
+{"CHANGED (comment)",0,1,"/c","// { <?"""", UserFullName>
 <?>
-// } Contributor's Name"}
+// } <?"""", UserFullName>"}
+},
+{0,
+{"REMOVED",0,0,"/-","//{[-] <?"""", UserFullName> <?"""", DateTime, ""ДЛФ=DT"">
+<?>
+//}<?"""", UserFullName> <?"""", DateTime, ""ДЛФ=DT"">
+"}
+},
+{0,
+{"ADDED",0,0,"/+","//{[+] <?"""", UserFullName> <?"""", DateTime, ""ДЛФ=DT"">
+<?>
+//}<?"""", UserFullName> <?"""", DateTime, ""ДЛФ=DT"">"}
 },
 {0,
 {"Line",0,0,"/*","<?>//======================================================================================================================"}
